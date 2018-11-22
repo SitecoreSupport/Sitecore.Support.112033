@@ -49,6 +49,10 @@
       <HintPath>..\packages\SC.Sitecore.Kernel.8.2.3\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.Marketing, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Marketing.8.2.3\lib\Sitecore.Marketing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.Marketing.Campaigns.Services, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SC.Sitecore.Marketing.Campaigns.Services.8.2.3\lib\Sitecore.Marketing.Campaigns.Services.dll</HintPath>
       <Private>False</Private>
@@ -85,6 +89,7 @@
   <ItemGroup>
     <Compile Include="CampaignController.cs" />
     <Compile Include="ContextSiteSwitcherFilterAttribute.cs" />
+    <Compile Include="ExperienceAnalyticsLinkBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
