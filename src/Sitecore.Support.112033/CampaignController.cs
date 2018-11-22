@@ -4,11 +4,13 @@ using Sitecore.Marketing.Campaigns.Services.Model;
 using Sitecore.Services.Core;
 using Sitecore.Services.Core.ComponentModel.DataAnnotations;
 using Sitecore.Services.Infrastructure.Services;
+using Sitecore.Support.Marketing.Campaigns.Services.Filters;
 using Sitecore.Web.Http.Filters;
 
 namespace Sitecore.Support.Marketing.Campaigns.Services.Controllers
 {
   [ServicesController("CampaignManagement.Campaign")]
+  [ContextSiteSwitcherFilterAttribute(siteName: "cm_service")]
   [ArgumentExceptionFilter]
   [AccessDeniedExceptionFilter]
   [UnauthorizedAccessExceptionFilter]
