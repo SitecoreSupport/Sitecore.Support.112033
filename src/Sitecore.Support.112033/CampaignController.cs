@@ -12,7 +12,7 @@ using CampaignRepositoryType = Sitecore.Marketing.Campaigns.Services.Data.Campai
 
 namespace Sitecore.Support.Marketing.Campaigns.Services.Controllers
 {
-  [ServicesController("CampaignManagement.Campaign")]
+  [ServicesController("CampaignManagementSupport.Campaign")]
   [ContextSiteSwitcherFilterAttribute(siteName: "cm_service")]
   [ArgumentExceptionFilter]
   [AccessDeniedExceptionFilter]
